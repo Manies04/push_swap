@@ -6,7 +6,7 @@
 /*   By: tiade-al <tiade-al@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/22 17:33:55 by tiade-al          #+#    #+#             */
-/*   Updated: 2024/10/22 22:08:46 by tiade-al         ###   ########.fr       */
+/*   Updated: 2024/10/24 14:30:37 by tiade-al         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
 
 void	error_handler(t_stack **a)
 {
-	write(1, "Error\n", 6);
+	write(2, "Error\n", 6);
 	free_stack(a);
 	exit(1);
 }
